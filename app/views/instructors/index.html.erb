@@ -1,0 +1,4 @@
+<h1>This is my index page</h1>
+<% @instructors.each do |instructor| %>
+    <li><%= link_to instructor.name, instructor_path(instructor) %></li>
+    <% end %>

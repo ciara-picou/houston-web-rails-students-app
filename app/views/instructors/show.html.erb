@@ -1,0 +1,4 @@
+<h1>This is my show page</h1>
+<h2><%= @instructor.name %></h2>
+<%= link_to "Delete", instructor_path(@instructor), method: :delete, data:{confirm: 'are you sure?'} %>
+  

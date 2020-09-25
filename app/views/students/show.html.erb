@@ -1,0 +1,4 @@
+<h1>This is my show page</h1>
+<h2><%= @student.name %> is a <%= @student.age %> year old <%= @student.major %> major. </h2>
+<%= link_to "Delete", student_path(@student), method: :delete, data:{confirm: 'are you sure?'} %>
+  
